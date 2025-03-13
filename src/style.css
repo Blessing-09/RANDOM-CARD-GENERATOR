@@ -1,5 +1,49 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
 
 body{
-    background: white;
+    background: rgb(2, 120, 2);
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 350px;
+    border-radius: 5%;
+    margin: 10px auto;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 0 10px 0px rgba(89, 23, 23, 0.3);
+    border: 1px solid rgb(103, 102, 102);
+    box-shadow:   0 10px 20px rgba(0, 0, 0, 0.5),  
+    0 15px 30px rgba(0, 0, 0, 0.4), 
+    0 0 8px rgba(0, 0, 0, 0.6) inset;
+}
+
+.middle-main {
+    font-size: 100px;
+}
+.lower-main {
+    transform: rotateX(180deg);
+}
+
+/* .btn {
+    background-color: rgb(255, 255, 255);
+} */
+#btn-card {
+    background-color: rgba(253, 252, 252, 0.79); 
+    border-radius: 12px;
+    padding: 8px;
+    cursor: pointer;
+    font-family: Silkscreen, cursive, sans-serif;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(183, 5, 5, 0.3);
+}
+
+#btn-card:hover {
+    background: linear-gradient(250deg, #808004, #108080);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
 }
